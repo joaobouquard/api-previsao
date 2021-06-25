@@ -1,5 +1,5 @@
 const apiTempo=axios.create({
-    baseURL:'https://api.hgbrasil.com/weather?format=json-cors&key=ff219003&city_name='
+    baseURL:'https://api.hgbrasil.com/weather?format=json-cors&key=a4e13105_name='
 });
 
 export default apiTempo;
