@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
     <title>Previsão do Tempo</title>
+    
 </head>
 <body>
-    <h1>    </h1>    
+
+        <img src="" id="imgTempo">
+    
+        <div id="pesquisar">    
+            <h1>Previsão:</h1>
+            
+            Consultar Cidades:
+            <select id="city">
+                <option value="Angra dos Reis"> Angra dos Reis</option>
+                <option value="Barra Mansa"> Barra Mansa </option>
+                <option value="Juiz de Fora"> Juiz de Fora </option>
+                <option value="Quatis"> Quatis</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="São Paulo"> São Paulo </option>
+                <option value="Volta Redonda">Volta Redonda</option>
+            </select> <br> 
+    
+            <button id="btnConsultar">Consultar</button>
+        </div> 
+
+    <div id="direita">
+    </div>   
+
+        <div id="pTemp"></div> 
+        
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
+    <script type="module" src="./js/script.js"></script>
 </body>
 </html>

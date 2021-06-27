@@ -1,0 +1,69 @@
+body{ 
+    background-color: rgb(130, 193, 230);
+    display:grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns:1fr 4fr 1fr;
+    grid-template-areas:"a b d" 
+                        "a c d";    
+}
+
+
+#pesquisar{
+
+    background-color:rgb(13, 157, 240);
+
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+    text-align:center;
+
+    height: 160px;
+    grid-area:b;
+    padding: 8px;
+    border-radius:15px;
+    box-shadow:1px 2px 2px 1px rgb(55, 55, 55);
+    
+
+}
+#pesquisar h1{
+    font-size:35px;
+}
+
+#imgTempo{ 
+    margin-left:50px;
+    grid-area:a;  
+    display:none; 
+    height: 200px;
+    width: 200px;
+    border-radius:5px;
+    
+}
+
+
+
+#pTempo{  
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+
+    background-color:rgb(13, 157, 240);
+
+    border-radius:15px;
+    box-shadow:1px 2px 2px 1px rgb(55, 55, 55);
+
+    grid-area: c;
+    padding: 8px; 
+
+    
+    
+    
+}
+
+#direita{
+    grid-area:d;
+}
+
+#btnConsultar{
+    
+    border-radius: 5px;
+    margin-top:5px;
+}
